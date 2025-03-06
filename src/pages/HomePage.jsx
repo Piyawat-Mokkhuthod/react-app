@@ -53,9 +53,7 @@ function HomePage() {
 
   return (
     <>
-    {users.map((user,index) => 
-      <div key={index}> {user.id} : {user.title}</div>
-    )}
+    
       <div className="grid-col-1 space-y-8">
         <NewTask addTask={addTask} />
 
